@@ -1,0 +1,252 @@
+/*----------------------------------------------ESTILOS INDEX----------------------------------------*/
+/*---QUITAR MARGENES POR DEFECTO---*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*---TAMAÑO ESPACIO DE TRABAJO---*/
+body{
+    width: 1250px;
+    margin: 0px auto;
+}
+/*---CABECERA---*/
+header{
+    margin-top: 20px;
+    margin-bottom: 0%;
+    
+}
+header img{
+    width: 1250px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+
+
+}
+ /*---MENU NAVEGACION---*/
+nav{
+    background-color: rgb(8, 70, 67);
+    height: 70px;
+    border-bottom: 20px solid white;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    
+}
+   
+
+
+nav ul li {
+    float: left;
+    list-style: none;
+    margin: 20px;
+   
+    
+}
+
+nav ul li a {
+    color: rgb(253, 253, 253);
+    display: inline-block;
+    padding: 0.4em 45px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.clearfix{
+    clear: both;
+   
+}
+
+/*---CONTENIDO DE LA PAGINA---*/
+#contenido{
+    float: left;
+    width: 70.4%;
+    background-color: rgb(212, 212, 133);
+    min-height: 100px; 
+   border-radius: 30px;
+   
+
+}
+.articulo1{
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: justify;
+    margin-top: 10px;
+    border-bottom-left-radius: 30px;
+}
+.articulo2{
+    border-bottom: 10px solid white;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: justify;
+    margin-top: 10px;
+    
+    
+}
+#titulo1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.titilo1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgb(3, 24, 23);
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
+
+
+#parrafo1{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#titulo2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#parrafo2{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.imagen{
+width: 150px;
+margin-left: 370px;
+height: 120px;
+}
+#link1{
+    text-decoration: none;
+   
+}
+#link2{
+    text-decoration: none;
+}
+
+
+/*---BARRA LATERAL---*/
+aside{
+    float: left;
+    width: 27%;
+    background-color: rgb(72, 113, 111);
+    min-height: 550px;
+    border-radius: 30px;
+    
+}
+
+#espacio{
+    float: left;
+    width: 2.5%;
+    min-height: 400px;
+    background: rgb(255, 255, 255)   ;
+}
+aside h2{
+    color: rgb(253, 253, 253);
+    text-align: center;
+
+}
+aside div{
+    color: rgb(253, 253, 253);
+    margin: 2em;
+
+}
+aside div ::placeholder{
+    text-align: center;
+    font-size: 18px;
+
+}
+aside form{
+    text-align: center;
+    margin-bottom: 2px;
+
+}
+#btn_validar{
+    background: rgb(243, 242, 242);
+    width: 150px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 2px solid gray;
+    margin-bottom: 25px;
+}
+#texto_lateral{
+    color: rgb(243, 242, 242);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.input{
+    width: 150px;
+    margin-left: 0.5px;
+    height: 20px;
+}
+/*---PIE DE PAGINA---*/
+footer{
+    background-color: rgb(8, 70, 67);
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+footer div{
+    color:rgb(189, 186, 186)
+}
+
+
+
+
+
+/*-----------------------------------ESTILOS SERVICIOS----------------------*/
+
+.articulo_pag{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: rgb(72, 113, 111);
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.img_ser{
+   
+    margin-left: 60px;
+    height: 400px;
+    width: 750px;
+}
+.img_header_ser{
+    height: 1200;
+    width: 1000px;
+    margin-left: 150px;
+
+}
+
